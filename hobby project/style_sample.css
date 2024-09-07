@@ -1,0 +1,41 @@
+
+.columns
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+a{
+    text-decoration: none;
+    background-color:#183b56;
+   text-align: center;
+    height: 40px;
+    width:200px ;
+    color: white;
+    transition: 0.3s ease-out;
+    font-family: 'Roboto',sans-serif;
+
+   
+}
+img
+{
+    height: 120px;
+    width: 200px;
+}
+
+a:hover
+{
+    background-color: transparent;
+    border:0.5px solid #4fb3d4;
+    border-radius: 5px;
+    color: black;
+
+}
